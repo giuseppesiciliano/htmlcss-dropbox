@@ -47,8 +47,9 @@ header {
     height: 80px;
 
     /* test */
-    background-color: brown;
-    position: fixed;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
     line-height: 80px;
 }
 
@@ -56,23 +57,28 @@ header {
     width: 50%;
 
     /* test */
-    background-color: burlywood;
     height: 80px;
 }
 
 .col.menu-left .logo {
-    width: 10%;
+    width: 13%;
 
     /* test */
-    vertical-align: middle;
     margin: 0 20px;
 }
 
-.col.menu-left ul li {
-    display: inline-block;
+.col.logo img {
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
 }
 
-.col.menu-left a {
+.nav-left ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav-left a {
     color: black;
     margin: 0 20px;
 }
@@ -83,13 +89,20 @@ header {
 
 
 
-
-
-
 .col.menu-right {
     width: 50%;
+}
 
-    /* test */
-    background-color: chocolate;
-    height: 80px;
+.nav-right ul {
+    text-align: right;
+}
+
+.nav-right ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: black;
+    margin: 0 20px;
 }
