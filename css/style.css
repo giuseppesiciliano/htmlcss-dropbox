@@ -17,6 +17,11 @@ img {
 
 
 /* COMMON */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -42,13 +47,18 @@ ul {
     font-weight: bold;
 }
 
-li a {
+a {
     text-decoration: none;
     margin: 0 20px;
 }
 
 .a-black {
     color: black;
+}
+
+.a-black:hover {
+    padding-bottom: 28px;
+    border-bottom: 2px solid black;
 }
 
 .button {
@@ -71,8 +81,8 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+    background-color: white;
 }
-
 
 
 
@@ -106,3 +116,19 @@ header {
     text-align: right;
 }
 /* -------------------------------end HEADER---------------------------- */
+
+
+
+
+
+/* ---------------------------------MAIN-------------------------------- */
+main {
+    margin-top: 80px;
+}
+
+.jumbotron {
+    background-color: #b4d0e7;
+
+    /* test */
+    height: 900px;
+}
