@@ -9,3 +9,82 @@ body {
     font-family: 'Open Sans',sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+
+
+/* COMMON */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+
+/* LISTS */
+ul {
+    list-style-type: none;
+
+    /* text */
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 80px;
+
+    /* test */
+    background-color: brown;
+    position: fixed;
+}
+
+.col.menu-left {
+    width: 50%;
+    height: 80px;
+
+    /* test */
+    background-color: burlywood;
+    line-height: 80px;
+}
+
+.col.menu-left .logo {
+    width: 10%;
+
+    /* test */
+    vertical-align: middle;
+}
+
+.col.menu-left ul li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.col.menu-right {
+    width: 50%;
+
+    /* test */
+    background-color: chocolate;
+    height: 80px;
+}
