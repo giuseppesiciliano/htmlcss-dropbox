@@ -15,6 +15,7 @@ img {
 
 
 
+
 /* COMMON */
 .clearfix::after {
     content: "";
@@ -27,6 +28,8 @@ img {
 }
 
 
+
+
 /* LISTS */
 ul {
     list-style-type: none;
@@ -34,61 +37,67 @@ ul {
     /* text */
 }
 
+.list ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
 li a {
     text-decoration: none;
+    margin: 0 20px;
+}
+
+.a-black {
+    color: black;
+}
+
+.button {
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 20px;
 }
 
 
 
 
-/* HEADER */
+/* -------------------------------HEADER-------------------------- */
 header {
     width: 100%;
     height: 80px;
+    line-height: 80px;
 
     /* test */
-    /* position: fixed; */
-    /* top: 0;
-    left: 0; */
-    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
+
+
+
+/* ----------MENU LEFT---------- */
 .col.menu-left {
     width: 50%;
-
-    /* test */
-    height: 80px;
 }
 
 .col.menu-left .logo {
-    width: 13%;
-
-    /* test */
+    width: 11%;
     margin: 0 20px;
 }
 
 .col.logo img {
     vertical-align: middle;
+
+    /* Per centrare verticalmente il logo */
     position: relative;
-    bottom: 3px;
-}
-
-.nav-left ul li {
-    display: inline-block;
-    font-weight: bold;
-}
-
-.nav-left a {
-    color: black;
-    margin: 0 20px;
+    bottom: 4px;
 }
 
 
 
 
-
-
-
+/* ----------MENU RIGHT---------- */
 .col.menu-right {
     width: 50%;
 }
@@ -96,13 +105,4 @@ header {
 .nav-right ul {
     text-align: right;
 }
-
-.nav-right ul li {
-    display: inline-block;
-    font-weight: bold;
-}
-
-.nav-right a {
-    color: black;
-    margin: 0 20px;
-}
+/* -------------------------------end HEADER---------------------------- */
