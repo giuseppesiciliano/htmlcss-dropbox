@@ -17,11 +17,6 @@ img {
 
 
 /* COMMON */
-.container {
-    width: 80%;
-    margin: auto;
-}
-
 .clearfix::after {
     content: "";
     display: table;
@@ -47,9 +42,12 @@ ul {
     font-weight: bold;
 }
 
+.list ul li a {
+    margin: 0 20px;
+}
+
 a {
     text-decoration: none;
-    margin: 0 20px;
 }
 
 .a-black {
@@ -126,9 +124,58 @@ main {
     margin-top: 80px;
 }
 
+
+/* ----------JUMBOTRON---------- */
+.jumbotron-container {
+    width: 80%;
+    margin: auto;
+}
+
 .jumbotron {
     background-color: #b4d0e7;
-
-    /* test */
-    height: 900px;
 }
+
+.jumbotron-content {
+    position: relative;
+    top: 90px;
+}
+
+
+/* JUMBOTRON Area Text */
+.jumbotron-content h1 {
+    font-size: 85px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.col.text {
+    width: 30%;
+}
+
+.col.text p {
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.col.text .ciao {
+    display: block;
+    padding-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* JUMBOTRON Area Image */
+.col.img {
+    width: 70%;
+}
+
+.col.img img {
+    width: 100%;
+}
+
+
+
+
+/* ----------SECTION---------- */
