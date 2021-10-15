@@ -49,15 +49,15 @@ header {
     /* test */
     background-color: brown;
     position: fixed;
+    line-height: 80px;
 }
 
 .col.menu-left {
     width: 50%;
-    height: 80px;
 
     /* test */
     background-color: burlywood;
-    line-height: 80px;
+    height: 80px;
 }
 
 .col.menu-left .logo {
@@ -65,12 +65,17 @@ header {
 
     /* test */
     vertical-align: middle;
+    margin: 0 20px;
 }
 
 .col.menu-left ul li {
     display: inline-block;
 }
 
+.col.menu-left a {
+    color: black;
+    margin: 0 20px;
+}
 
 
 
