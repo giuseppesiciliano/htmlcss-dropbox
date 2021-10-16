@@ -27,6 +27,15 @@ img {
     float: left;
 }
 
+.button {
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    background-color: #3c82f1;
+}
 
 
 
@@ -59,11 +68,6 @@ a {
     border-bottom: 2px solid black;
 }
 
-.button {
-    color: white;
-    background-color: #0061ff;
-    padding: 10px 20px;
-}
 
 
 
@@ -90,7 +94,7 @@ header {
 }
 
 .col.menu-left .logo {
-    width: 11%;
+    width: 12%;
     margin: 0 20px;
 }
 
@@ -157,9 +161,10 @@ main {
     padding-bottom: 40px;
 }
 
-.col.text .ciao {
+/* Classe da modificare */
+.col.text .classe-prova {
     display: block;
-    padding-top: 40px;
+    margin-top: 40px;
     color: black;
     font-weight: bold;
     font-size: 15px;
@@ -179,3 +184,39 @@ main {
 
 
 /* ----------SECTION---------- */
+.plan-container {
+    width: 65%;
+    margin: auto;
+}
+
+.plan {
+    /* margin-top: 200px; */
+}
+
+
+
+.plan-content h2 {
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+
+
+
+/* Cose da considerare */
+    /* Fare i pulsanti col display inline */
+    /* Inserire il logo come li */
+
+/* Cose da chiedere */
+    /* Display inline-block nel pulsante ACCEDI mi sborda tutto */
