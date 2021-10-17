@@ -39,6 +39,8 @@ img {
 
 
 
+
+
 /* LISTS */
 ul {
     list-style-type: none;
@@ -170,6 +172,10 @@ main {
     font-size: 15px;
 }
 
+.fa-arrow-down {
+    font-size: 40px;
+    padding-top: 50px;
+}
 
 /* JUMBOTRON Area Image */
 .col.img {
@@ -183,7 +189,7 @@ main {
 
 
 
-/* ----------SECTION---------- */
+/* ----------PLAN SECTION---------- */
 .plan-container {
     width: 65%;
     margin: auto;
@@ -194,28 +200,125 @@ main {
 }
 
 
-
-.plan-content h2 {
+.plan-content > h2 {
     font-size: 40px;
     margin-top: 200px;
     margin-bottom: 50px;
 }
 
+.choise {
+    display: inline;
+    padding-right: 30px;
+  }
 
-
-.circle {
+.radio-button{
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    border: 1px solid gray;
+    vertical-align: middle;
+/*     background-color: red; */
+    margin-right: 3px;
+}
+
+.radio-blue{
+    border: 4px solid #0061ff;
+}
+
+.radio-gray{
+    border: 1px solid #e6e6e7;
 }
 
 
 
 
+
+/* COLUMN COMMON */
+.col-container {
+    width: 80%;
+    margin: auto;
+}
+
+.col-plan {
+    width: 30%;
+
+    /* test */
+    height: 700px;
+    border: 1px solid lightgrey;
+}
+
+.col-title {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.plan-title {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.plan-price {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.plan-month {
+    color: gray;
+    font-weight: bold;
+}
+
+.plan-features {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.plan-features span {
+    display: block;
+    padding: 10px 0;
+}
+
+.plan-features .button {
+    margin: 30px 0;
+}
+
+.info.col-container::after{
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 1px solid #d6d6d8;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+.col-plan.central {
+    margin: 0 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Cose da considerare */
-    /* Fare i pulsanti col display inline */
     /* Inserire il logo come li */
 
 /* Cose da chiedere */
