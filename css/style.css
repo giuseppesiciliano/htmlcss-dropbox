@@ -31,6 +31,7 @@ img {
     color: white;
     background-color: #0061ff;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -55,10 +56,11 @@ ul {
 
 .list ul li a {
     margin: 0 20px;
+    text-decoration: none;
 }
 
 a {
-    text-decoration: none;
+    color: blue;
 }
 
 .a-black {
@@ -208,8 +210,12 @@ main {
 
 .choise {
     display: inline;
-    padding-right: 30px;
-  }
+    padding-right: 40px;
+}
+
+.choise-col {
+    margin-top: 30px;
+}
 
 .radio-button{
     display: inline-block;
@@ -243,7 +249,7 @@ main {
     width: 30%;
 
     /* test */
-    height: 700px;
+    height: 1000px;
     border: 1px solid lightgrey;
 }
 
@@ -290,15 +296,33 @@ main {
     display: block;
     width: 50px;
     border-bottom: 1px solid #d6d6d8;
-    margin: 20px 0;
 }
 
+.classeprova {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 
+.classeprova span {
+    display: block;
+    padding-top: 40px;
+}
 
+.advantages {
+    padding: 50px 0;
+}
 
+.advantages h4 {
+    padding-bottom: 10px;
+}
 
+.advantages li {
+    padding: 13px;
+}
 
-
+.fa-solid.fa-check {
+    color: blue;
+}
 
 
 .col-plan.central {
