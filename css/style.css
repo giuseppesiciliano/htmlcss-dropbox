@@ -223,7 +223,7 @@ main {
 
 
 
-/* ----------PLAN SECTION---------- */
+/* PLAN SECTION*/
 .plan-content > h2 {
     font-size: 40px;
     margin-top: 200px;
@@ -390,6 +390,54 @@ main {
 
 
 
+/* TEAM SECTION */
+#team {
+    padding-top: 150px;
+}
+
+#team h2 {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.col-team-title {
+    width: 50%;
+}
+
+
+
+
+.col-logos {
+    width: 400px;
+    height: 400px;
+}
+  
+.col-text {
+    width: calc(100% - 800px);
+    height: 400px;
+}
+  
+.col-box {
+    height: 200px;
+    width: 200px;
+}
+
+/* Logos */
+#asu {
+    background-color: #61082b;
+}
+
+#uf {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+
+
+
 
 
 
@@ -400,7 +448,7 @@ main {
 
 /* SPOT SECTION */
 #spot {
-    padding: 150px 0;
+    padding: 200px 0;
     background-color: #b4d0e7;
 }
 
@@ -417,12 +465,6 @@ main {
     width: 50%;
     text-align: right;    
 }
-
-
-
-
-
-
 
 
 
@@ -500,4 +542,5 @@ footer {
 
 
 
-/* display inline-bloc pulsanti */
+/* display inline-block pulsanti */
+/* completare alt immagini logo */
