@@ -228,6 +228,9 @@ main {
 .col.img img {
     width: 100%;
 }
+/* end JUMBOTRON */
+
+
 
 
 
@@ -238,7 +241,7 @@ main {
     margin-bottom: 50px;
 }
 
-.choise {
+.choise-button {
     display: inline;
     padding-right: 40px;
 }
@@ -299,19 +302,32 @@ main {
     font-weight: bold;
 }
 
+
+
+
+
+/* Plan Features */
 .plan-features {
     margin-top: 50px;
     font-size: 15px;
 }
 
-.plan-features span {
-    display: block;
+.plan-features li {
+    /* display: block; */
     padding: 10px 0;
 }
 
 .plan-features .button {
     margin: 30px 0;
 }
+
+
+
+
+
+
+
+
 
 .info.col-container::after{
     content: "";
@@ -330,6 +346,11 @@ main {
     padding-top: 40px;
 }
 
+
+
+
+
+/* Plan Advantages */
 .advantages {
     padding: 50px 0;
 }
@@ -350,6 +371,26 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------PLAN SECTION---------------- */
 .col-plan.central {
     margin: 0 5%;
 }
@@ -375,13 +416,14 @@ main {
     padding-top: 30px;
     padding-right: 30px;
 }
+/* ----------------end PLAN SECTION-------------- */
 
 
 
 
 
 
-
+/* ----------------PARTNER SECTION--------------- */
 .col-partner {
     width: 50%;
 }
@@ -393,9 +435,7 @@ main {
 #partner {
     margin-top: 70px;
 }
-
-
-
+/* -------------end PARTNER SECTION-------------- */
 
 
 
@@ -420,9 +460,6 @@ main {
     padding-top: 20px;
 }
 /* --------------end OPERATIONS SECTION------------ */
-
-
-
 
 
 
@@ -584,6 +621,7 @@ main {
 
 
 
+
 /* ------------------SPOT SECTION------------------ */
 #spot {
     padding: 150px 0;
@@ -603,6 +641,7 @@ main {
     text-align: right;    
 }
 /* ----------------end SPOT SECTION------------------ */
+
 
 
 
