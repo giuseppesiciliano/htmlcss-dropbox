@@ -42,12 +42,14 @@ img {
 
 
 /* COMMON CONTAINER */
-.jumbotron-container {
+
+/* Jumbotron, Footer */
+.container-large {
     width: 80%;
     margin: auto;
 }
 
-.plan-container {
+.container {
     width: 65%;
     margin: auto;
 }
@@ -193,6 +195,8 @@ main {
     padding-top: 50px;
 }
 
+
+
 /* JUMBOTRON Area Image */
 .col.img {
     width: 70%;
@@ -206,11 +210,6 @@ main {
 
 
 /* ----------PLAN SECTION---------- */
-.plan {
-    /* margin-top: 200px; */
-}
-
-
 .plan-content > h2 {
     font-size: 40px;
     margin-top: 200px;
@@ -358,6 +357,10 @@ main {
 
 
 
+
+
+
+
 .col-partner {
     width: 50%;
 }
@@ -366,11 +369,72 @@ main {
     padding: 80px;
 }
 
+#partner {
+    margin-top: 70px;
+}
 
 
 
-/* Cose da considerare */
-    /* Inserire il logo come li */
 
-/* Cose da chiedere */
-    /* Display inline-block nel pulsante ACCEDI mi sborda tutto */
+
+
+
+
+/* FAQ SECTION*/
+
+#faq {
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------FOOTER-------------------------------- */
+footer {
+    background-color: black;
+    color: white;
+    height: 600px;
+}
+
+.footer-list {
+    padding-top: 100px;
+}
+
+.col-footer {
+    width: 20%;
+    height: 400px;
+    /* color: white; */
+}
+
+.col-footer ul {
+    padding-top: 50px;
+    line-height: 40px;
+}
+
+.col-footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.line-break {
+    content: "";
+    display: block;
+    width: 120px;
+    border-bottom: 1px solid #d6d6d8;
+}
+
+.language {
+    padding-top: 50px;
+    font-size: 14px;
+    color: #999999;
+}
+/* -----------------------------end FOOTER-------------------------------- */
