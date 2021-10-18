@@ -380,17 +380,39 @@ main {
 
 
 
-/* FAQ SECTION*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ SECTION*/
 #faq {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
+#faq h2 {
+    border-bottom: 1px solid #dcdcde;
+    padding-bottom: 50px;
+}
 
+.faq-title {
+    padding: 30px 0;
+    border-bottom: 1px solid #dcdcde;
+}
 
-
-
-
+.faq-arrow {
+    float: right;
+    padding-right: 40px;
+}
 
 
 
