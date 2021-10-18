@@ -38,6 +38,15 @@ img {
     background-color: #3c82f1;
 }
 
+.line-break {
+    content: "";
+    display: block;
+}
+
+.title-section {
+    font-size: 50px;
+}
+
 
 
 
@@ -225,7 +234,6 @@ main {
 
 /* PLAN SECTION*/
 .plan-content > h2 {
-    font-size: 40px;
     margin-top: 200px;
     margin-bottom: 50px;
 }
@@ -390,9 +398,40 @@ main {
 
 
 
-/* TEAM SECTION */
+
+
+
+
+/* --------------OPERATIONS SECTION--------------- */
+#operations {
+    padding: 70px 0;
+}
+
+.col-operations {
+    width: 33%;
+    padding: 30px;
+}
+
+.col-operations h2 {
+    font-size: 25px;
+}
+
+.col-operations p {
+    padding-top: 20px;
+}
+/* --------------end OPERATIONS SECTION------------ */
+
+
+
+
+
+
+
+
+
+/* ---------------------TEAM SECTION-------------- */
 #team {
-    padding-top: 150px;
+    padding-top: 40px;
 }
 
 #team h2 {
@@ -402,59 +441,157 @@ main {
 
 .col-team-title {
     width: 50%;
+    padding-bottom: 70px;
+}
+
+.col-team-title a {
+    font-weight: bold;
 }
 
 
 
-
+/* Column Logo Left-Right */
 .col-logos {
     width: 400px;
     height: 400px;
 }
-  
-.col-text {
-    width: calc(100% - 800px);
-    height: 400px;
-}
-  
+
 .col-box {
     height: 200px;
     width: 200px;
+    position: relative;
 }
 
-/* Logos */
+.col-box img {
+    filter: invert(1);
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Column Logo Central */
+.col-text {
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+.line-break.logos {
+    width: 60px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.logos-text {
+    padding: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logos-text img {
+    height: 50px;
+}
+
+.logos-text p {
+    padding: 50px 0;
+}
+
+
+
+/* Logos Left */
+#designit {
+    background-color: #d0e9cd;
+}
+#designit .bg-color {
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a2d39b;
+}
+#designit img {
+    height: 45px;
+}
+
+
 #asu {
     background-color: #61082b;
 }
+#asu img {
+    height: 80px;
+}
+
 
 #uf {
     background-color: #0093ce;
 }
+#uf img {
+    height: 20px;
+    width: 110px;
+}
+
 
 #topps {
     background-color: #ff1c1c;
 }
+#topps img {
+    height: 45px;
+
+}
+
+
+
+/* Logos Right */
+#wbr {
+    background-color: #d5001f;
+}
+#wbr img {
+    height: 45px;
+}
+
+
+#hearst {
+    background-color: #b4d0e7;
+}
+#hearst img {
+    height: 15px;
+}
+
+
+#lonely_planet {
+    background-color: #0d2481;
+}
+#lonely_planet img {
+    height: 55px;
+}
+
+
+#cco {
+    background-color: #ffd830;
+}
+#cco img {
+    height: 70px;
+}
+/* end Logos */
+/* ------------------end TEAM SECTION-------------- */
 
 
 
 
 
-
-
-
-
-
-
-
-/* SPOT SECTION */
+/* ------------------SPOT SECTION------------------ */
 #spot {
-    padding: 200px 0;
+    padding: 150px 0;
     background-color: #b4d0e7;
 }
 
 #spot h2 {
     color: #61082b;
-    font-size: 50px;
 }
 
 .col-spot-left {
@@ -465,12 +602,13 @@ main {
     width: 50%;
     text-align: right;    
 }
+/* ----------------end SPOT SECTION------------------ */
 
 
 
 
 
-/* FAQ SECTION*/
+/* ------------------FAQ SECTION----------------------*/
 #faq {
     padding: 120px 0;
 }
@@ -487,8 +625,11 @@ main {
 
 .faq-arrow {
     float: right;
-    padding-right: 40px;
+    padding-right: 40px;    
 }
+/* ---------------end FAQ SECTION---------------------*/
+
+
 
 
 
@@ -523,9 +664,7 @@ footer {
     color: white;
 }
 
-.line-break {
-    content: "";
-    display: block;
+.line-break.footer {
     width: 120px;
     border-bottom: 1px solid #d6d6d8;
 }
