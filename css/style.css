@@ -41,6 +41,25 @@ img {
 
 
 
+/* COMMON CONTAINER */
+.jumbotron-container {
+    width: 80%;
+    margin: auto;
+}
+
+.plan-container {
+    width: 65%;
+    margin: auto;
+}
+
+.col-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
 
 /* LISTS */
 ul {
@@ -134,11 +153,6 @@ main {
 
 
 /* ----------JUMBOTRON---------- */
-.jumbotron-container {
-    width: 80%;
-    margin: auto;
-}
-
 .jumbotron {
     background-color: #b4d0e7;
 }
@@ -192,11 +206,6 @@ main {
 
 
 /* ----------PLAN SECTION---------- */
-.plan-container {
-    width: 65%;
-    margin: auto;
-}
-
 .plan {
     /* margin-top: 200px; */
 }
@@ -240,15 +249,8 @@ main {
 
 
 /* COLUMN COMMON */
-.col-container {
-    width: 80%;
-    margin: auto;
-}
-
 .col-plan {
     width: 30%;
-
-    /* test */
     height: 1000px;
     border: 1px solid lightgrey;
 }
@@ -325,19 +327,44 @@ main {
 }
 
 
+
+
+
 .col-plan.central {
     margin: 0 5%;
 }
 
+.col-plan-bottom {
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-top: 80px;
+}
+
+
+.col-70 {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-30 div {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
 
 
 
+.col-partner {
+    width: 50%;
+}
 
-
-
-
-
-
+.col-partner-text {
+    padding: 80px;
+}
 
 
 
