@@ -42,7 +42,6 @@ img {
 
 
 /* COMMON CONTAINER */
-
 /* Jumbotron, Footer */
 .container-large {
     width: 80%;
@@ -57,6 +56,21 @@ img {
 .col-container {
     width: 80%;
     margin: auto;
+}
+
+
+/* COMMON BUTTON */
+.button-spot {
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.button-spot:hover {
+    background-color: rgb(235, 235, 235);
 }
 
 
@@ -231,7 +245,6 @@ main {
     height: 15px;
     border-radius: 50%;
     vertical-align: middle;
-/*     background-color: red; */
     margin-right: 3px;
 }
 
@@ -385,6 +398,27 @@ main {
 
 
 
+/* SPOT SECTION */
+#spot {
+    padding: 150px 0;
+    background-color: #b4d0e7;
+}
+
+#spot h2 {
+    color: #61082b;
+    font-size: 50px;
+}
+
+.col-spot-left {
+    width: 50%;
+}
+
+.col-spot-right {
+    width: 50%;
+    text-align: right;    
+}
+
+
 
 
 
@@ -460,3 +494,10 @@ footer {
     color: #999999;
 }
 /* -----------------------------end FOOTER-------------------------------- */
+
+
+
+
+
+
+/* display inline-bloc pulsanti */
