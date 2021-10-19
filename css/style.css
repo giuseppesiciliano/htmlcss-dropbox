@@ -68,7 +68,7 @@ img {
     padding: 30px;
 }
 
-
+.classe-prova
 
 
 /* BUTTON */
@@ -209,6 +209,7 @@ main {
     color: black;
     font-weight: bold;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .fa-arrow-down {
@@ -650,11 +651,13 @@ main {
 .faq-title {
     padding: 30px 0;
     border-bottom: 1px solid #dcdcde;
+    position: relative;
 }
 
 .faq-arrow {
-    float: right;
-    padding-right: 40px;    
+    position: absolute;
+    top: 30px;
+    right: 50px;
 }
 /* ---------------end FAQ SECTION---------------------*/
 
