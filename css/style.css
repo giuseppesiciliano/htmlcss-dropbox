@@ -50,25 +50,28 @@ img {
 
 
 
-/* COMMON CONTAINER */
+/* CONTAINER */
 /* Jumbotron, Footer */
 .container-large {
     width: 80%;
     margin: auto;
 }
 
+/* all Sections */
 .container {
     width: 65%;
     margin: auto;
 }
 
+/* Plan table */
 .col-container {
-    width: 80%;
-    margin: auto;
+    padding: 30px;
 }
 
 
-/* COMMON BUTTON */
+
+
+/* BUTTON */
 .button-spot {
     display: inline-block;
     padding: 10px 60px;
@@ -89,8 +92,6 @@ img {
 /* LISTS */
 ul {
     list-style-type: none;
-
-    /* text */
 }
 
 .list ul li {
@@ -153,7 +154,6 @@ header {
     position: relative;
     bottom: 4px;
 }
-
 
 
 
@@ -225,9 +225,9 @@ main {
     width: 70%;
 }
 
-.col.img img {
+/* .col.img img {
     width: 100%;
-}
+} */
 /* end JUMBOTRON */
 
 
@@ -271,10 +271,10 @@ main {
 
 
 
-/* COLUMN COMMON */
+/* COLUMN */
 .col-plan {
     width: 30%;
-    height: 1000px;
+    /* height: 1000px; */
     border: 1px solid lightgrey;
 }
 
@@ -313,21 +313,16 @@ main {
 }
 
 .plan-features li {
-    /* display: block; */
-    padding: 10px 0;
+    padding: 10px 10px 10px 20px;
+}
+
+.plan-features li i {
+    margin-left: -20px;
 }
 
 .plan-features .button {
     margin: 30px 0;
 }
-
-
-
-
-
-
-
-
 
 .info.col-container::after{
     content: "";
@@ -336,12 +331,12 @@ main {
     border-bottom: 1px solid #d6d6d8;
 }
 
-.classeprova {
+.plan-try {
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-.classeprova span {
+.plan-try span {
     display: block;
     padding-top: 40px;
 }
@@ -351,40 +346,17 @@ main {
 
 
 /* Plan Advantages */
-.advantages {
-    padding: 50px 0;
-}
-
 .advantages h4 {
     padding-bottom: 10px;
 }
 
 .advantages li {
-    padding: 13px;
+    line-height: 50px;
 }
 
 .fa-solid.fa-check {
     color: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
