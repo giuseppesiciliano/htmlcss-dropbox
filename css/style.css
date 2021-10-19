@@ -518,7 +518,8 @@ main {
 }
 
 .logos-text img {
-    height: 50px;
+    width: 10%;
+    padding-bottom: 30px;
 }
 
 .logos-text p {
@@ -656,6 +657,7 @@ main {
     padding-right: 40px;    
 }
 /* ---------------end FAQ SECTION---------------------*/
+
 /* ------------------------------end MAIN-------------------------------- */
 
 
@@ -703,10 +705,3 @@ footer {
     color: #999999;
 }
 /* -----------------------------end FOOTER-------------------------------- */
-
-
-
-
-
-
-/* completare alt immagini logo */
