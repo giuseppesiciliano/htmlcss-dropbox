@@ -126,8 +126,6 @@ header {
     width: 100%;
     height: 80px;
     line-height: 80px;
-
-    /* test */
     position: fixed;
     top: 0;
     left: 0;
@@ -224,10 +222,6 @@ main {
 .col.img {
     width: 70%;
 }
-
-/* .col.img img {
-    width: 100%;
-} */
 /* end JUMBOTRON */
 
 
@@ -274,7 +268,7 @@ main {
 /* COLUMN */
 .col-plan {
     width: 30%;
-    /* height: 1000px; */
+    min-height: 1200px;
     border: 1px solid lightgrey;
 }
 
@@ -286,7 +280,6 @@ main {
 
 .plan-title {
     font-size: 30px;
-    padding-top: 40px;
     padding-bottom: 25px;
 }
 
@@ -312,6 +305,10 @@ main {
     font-size: 15px;
 }
 
+.plan-features span {
+    padding-bottom: 100px;
+}
+
 .plan-features li {
     padding: 10px 10px 10px 20px;
 }
@@ -324,21 +321,13 @@ main {
     margin: 30px 0;
 }
 
-.info.col-container::after{
-    content: "";
-    display: block;
-    width: 50px;
-    border-bottom: 1px solid #d6d6d8;
-}
-
 .plan-try {
     padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 .plan-try span {
     display: block;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 
@@ -373,10 +362,8 @@ main {
     margin-top: 80px;
 }
 
-
 .col-70 {
     width: 70%;
-    padding-left: 30px;
 }
 
 .col-30 {
@@ -385,8 +372,17 @@ main {
 
 .col-30 div {
     text-align: right;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-right: 30px;
+}
+
+.col-30 .button {
+    padding: 8px 63px;
+}
+
+.line-div {
+    width: 70px;
+    border: 1px solid lightgrey;
 }
 /* ----------------end PLAN SECTION-------------- */
 
@@ -396,16 +392,37 @@ main {
 
 
 /* ----------------PARTNER SECTION--------------- */
+#partner {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
 .col-partner {
     width: 50%;
 }
 
 .col-partner-text {
-    padding: 80px;
+    padding: 70px;
 }
 
-#partner {
-    margin-top: 70px;
+.col-partner-text h2 {
+    font-size: 30px;
+}
+
+.col-partner-text p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.button-partner {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.button-partner:hover {
+    background-color: rgb(235, 235, 235);
 }
 /* -------------end PARTNER SECTION-------------- */
 
@@ -639,7 +656,7 @@ main {
     padding-right: 40px;    
 }
 /* ---------------end FAQ SECTION---------------------*/
-
+/* ------------------------------end MAIN-------------------------------- */
 
 
 
@@ -692,5 +709,4 @@ footer {
 
 
 
-/* display inline-block pulsanti */
 /* completare alt immagini logo */
